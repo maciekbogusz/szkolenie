@@ -11,4 +11,3 @@ for element in symbol:
     count =  (text.count(element))
     charsCount[element]= count  
 print(sorted(charsCount.items()))
-#print(charsCount)

@@ -6,7 +6,7 @@ text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."\
 
 symbol = 'hijklmnopqrsabcdefgtuvwxyz'
 charsCount = {} 
-
+text = text.lower()
 for element in symbol:
     count =  (text.count(element))
     charsCount[element]= count  

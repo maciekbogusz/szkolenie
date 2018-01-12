@@ -3,7 +3,6 @@
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."\
      "Nam venenatis nisi eu hendrerit aliquet. Praesent euismod, "\
        "mauris vitae consequat luctus."
-
 symbol = 'hijklmnopqrsabcdefgtuvwxyz'
 charsCount = {} 
 text = text.lower()

@@ -15,8 +15,8 @@ for element in lst:
     len_of = len(lst)
     result = result + element
     average = result/len_of
-print(result)
-print(average) 
+print("Sum of elements:",result)
+print("Average is:",average) 
 
 #min / max
 result = 0
@@ -24,8 +24,8 @@ i = 0
 min_list = lst[0]
 for element in lst:
     if element < min_list:
-        low = element
-print(low)
+        min_list = element
+print("Minimum value:",min_list)
 #max
 result = 0
 i = 0
@@ -33,5 +33,5 @@ max_list = lst[0]
 for element in lst:
     if element > max_list:
         max_list = element
-print(max_list)
+print("Max value:",max_list)
 
